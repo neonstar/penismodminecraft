@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "penismod:blocks/cat_tex",
+    "particle": "penismod:blocks/cat_tex"
+  }
+}

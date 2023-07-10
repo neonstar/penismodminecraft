@@ -1,0 +1,19 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "penismod:cat.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#Material.002": "penismod:blocks/cat_tex"
+    }
+  },
+  "variants": {
+    "inventory": [
+      {
+        "transform": "forge:default-tool"
+      }
+    ]
+  }
+}

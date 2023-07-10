@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "penismod:blocks/ore",
+    "up": "penismod:blocks/ore",
+    "north": "penismod:blocks/ore",
+    "east": "penismod:blocks/ore",
+    "south": "penismod:blocks/ore",
+    "west": "penismod:blocks/ore",
+    "particle": "penismod:blocks/ore"
+  }
+}

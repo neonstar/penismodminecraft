@@ -1,0 +1,26 @@
+{
+  "group": "penismod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "penismod:huy"
+    },
+    "4": {
+      "item": "penismod:huy"
+    },
+    "5": {
+      "item": "penismod:huy"
+    }
+  },
+  "result": {
+    "item": "penismod:cattwo",
+    "count": 3
+  }
+}

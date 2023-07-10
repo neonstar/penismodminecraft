@@ -1,0 +1,29 @@
+{
+  "_fv": 6,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "huytexture",
+    "customModelName": "Normal",
+    "name": "Huy",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 1,
+    "enchantability": 1,
+    "useDuration": 10,
+    "toolType": 1.5,
+    "damageCount": 40,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 50.0,
+    "specialInfo": [
+      "Мобам пизда"
+    ],
+    "hasGlow": true,
+    "onRightClickedOnBlock": {
+      "name": "HuyRightClickedOnBlock"
+    }
+  }
+}

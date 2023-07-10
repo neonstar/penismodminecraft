@@ -1,0 +1,29 @@
+{
+  "_fv": 6,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "textureplaceholder",
+    "customModelName": "Normal",
+    "name": "Cumpot",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Ведро с cumом. Если выпить даст бафф силы. С шифтом можно разлить."
+    ],
+    "hasGlow": false,
+    "onRightClickedOnBlock": {
+      "name": "CumpotRightClickedOnBlock"
+    }
+  }
+}

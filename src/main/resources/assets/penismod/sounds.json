@@ -1,0 +1,11 @@
+{
+  "legendofthepnis": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "penismod:legend",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "penismod:cat.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#Material.002": "penismod:blocks/cat_tex"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "penismod:cat.obj"
+    },
+    "facing=north": {
+      "model": "penismod:cat.obj"
+    },
+    "facing=east": {
+      "model": "penismod:cat.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "penismod:cat.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "penismod:cat.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "penismod:cat.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "penismod:cat.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

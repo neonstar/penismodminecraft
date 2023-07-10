@@ -1,0 +1,26 @@
+{
+  "group": "penismod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "penismod:penisgem"
+    },
+    "1": {
+      "item": "penismod:penisgem"
+    },
+    "2": {
+      "item": "penismod:penisgem"
+    },
+    "3": {
+      "item": "penismod:penisgem"
+    }
+  },
+  "result": {
+    "item": "penismod:bomb",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "penismod:blocks/cat_tex",
+    "up": "penismod:blocks/dingus_nowhiskers",
+    "north": "penismod:blocks/ore",
+    "east": "penismod:blocks/dingus_nowhiskers",
+    "south": "penismod:blocks/dingus_nowhiskers",
+    "west": "penismod:blocks/dingus_nowhiskers",
+    "particle": "penismod:blocks/cat_tex"
+  }
+}

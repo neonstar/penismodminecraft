@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "penismod:lastlast.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#dingus": "penismod:blocks/dingus_nowhiskers"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "penismod:lastlast.obj"
+    },
+    "facing=north": {
+      "model": "penismod:lastlast.obj"
+    },
+    "facing=east": {
+      "model": "penismod:lastlast.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "penismod:lastlast.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "penismod:lastlast.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "penismod:lastlast.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "penismod:lastlast.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

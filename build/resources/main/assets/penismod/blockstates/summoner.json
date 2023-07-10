@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "normal": {
+      "model": "penismod:summoner"
+    },
+    "facing=north": {
+      "model": "penismod:summoner"
+    },
+    "facing=east": {
+      "model": "penismod:summoner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "penismod:summoner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "penismod:summoner",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "penismod:summoner",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "penismod:summoner",
+      "x": 90
+    }
+  }
+}

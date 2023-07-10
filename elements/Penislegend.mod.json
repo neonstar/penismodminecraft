@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "penisdisc",
+    "name": "Penis legend music disc",
+    "description": "bro...",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:legendofthepnis"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

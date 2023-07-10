@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "dingus": "dingus_nowhiskers"
+      },
+      "name": "default"
+    }
+  }
+}

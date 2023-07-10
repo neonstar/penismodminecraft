@@ -1,0 +1,30 @@
+{
+  "group": "penismod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "penismod:huy"
+    },
+    "3": {
+      "item": "penismod:huy"
+    },
+    "4": {
+      "item": "minecraft:diamond_block"
+    },
+    "5": {
+      "item": "penismod:huy"
+    },
+    "7": {
+      "item": "penismod:huy"
+    }
+  },
+  "result": {
+    "item": "penismod:huesospotionnn",
+    "count": 1
+  }
+}

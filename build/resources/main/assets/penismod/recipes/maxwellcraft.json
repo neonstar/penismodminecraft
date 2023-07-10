@@ -1,0 +1,23 @@
+{
+  "group": "penismod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "23"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "penismod:penisgem"
+    },
+    "3": {
+      "item": "penismod:penisgem"
+    }
+  },
+  "result": {
+    "item": "penismod:maxwellblock",
+    "count": 1
+  }
+}

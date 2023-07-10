@@ -1,0 +1,26 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ultimatedildo",
+    "customModelName": "Normal",
+    "name": "Pick Penis",
+    "creativeTab": {
+      "value": "MATERIALS"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 15,
+    "efficiency": 20.0,
+    "attackSpeed": 0.5,
+    "enchantability": 2,
+    "damageVsEntity": 25.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "onBlockDestroyedWithTool": {
+      "name": "PickPenisBlockDestroyedWithTool"
+    }
+  }
+}

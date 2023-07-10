@@ -1,0 +1,39 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "penismod:flowerpot.obj"
+  },
+  "variants": {
+    "normal": {
+      "model": "penismod:flowerpot.obj"
+    },
+    "facing=north": {
+      "model": "penismod:flowerpot.obj"
+    },
+    "facing=east": {
+      "model": "penismod:flowerpot.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "penismod:flowerpot.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "penismod:flowerpot.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "penismod:flowerpot.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "penismod:flowerpot.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}
