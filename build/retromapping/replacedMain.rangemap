@@ -1,7 +1,7 @@
-Unsupposrted library path: C:\Users\Kristina\Downloads\penismodminecraft\build\classes\java\api
-Unsupposrted library path: C:\Users\Kristina\Downloads\penismodminecraft\build\resources\api
+Unsupposrted library path: C:\Users\neon-pc\MCreatorWorkspaces\penismod\penismodminecraft\build\classes\java\api
+Unsupposrted library path: C:\Users\neon-pc\MCreatorWorkspaces\penismod\penismodminecraft\build\resources\api
 Symbol range map extraction starting
-Processing 49 files
+Processing 50 files
 startProcessing "net/mcreator/penismod/ClientProxyPenismod.java" md5: fe81291d9c62e5c52ac9f7f48f0f0a10
 @|net/mcreator/penismod/ClientProxyPenismod.java|8|29|net.mcreator.penismod|package|net.mcreator.penismod|(file)
 Class Start: net.mcreator.penismod.ClientProxyPenismod
@@ -1078,7 +1078,7 @@ Class Start: net.mcreator.penismod.block.BlockCatTwo
 Class End  : net.mcreator.penismod.block.BlockCatTwo
 endProcessing "net/mcreator/penismod/block/BlockCatTwo.java"
 
-startProcessing "net/mcreator/penismod/block/BlockCum.java" md5: 95a19f0addeb6b9a83886cada855a53a
+startProcessing "net/mcreator/penismod/block/BlockCum.java" md5: 8ebf79893752cc9c1f8a28e3a2742954
 @|net/mcreator/penismod/block/BlockCum.java|10|37|net.mcreator.penismod.block|package|net.mcreator.penismod.block|(file)
 Class Start: net.mcreator.penismod.block.BlockCum
    @|net/mcreator/penismod/block/BlockCum.java|1132|1163|ElementsPenismod.ModElement.Tag|class|net.mcreator.penismod.ElementsPenismod.ModElement.Tag|false
@@ -1138,44 +1138,47 @@ Class Start: net.mcreator.penismod.block.BlockCum
       @|net/mcreator/penismod/block/BlockCum.java|2029|2042|FluidRegistry|class|net.minecraftforge.fluids.FluidRegistry|false
       @|net/mcreator/penismod/block/BlockCum.java|2043|2056|registerFluid|method|net.minecraftforge.fluids.FluidRegistry|registerFluid|(Lnet/minecraftforge/fluids/Fluid;)Z
       @|net/mcreator/penismod/block/BlockCum.java|2057|2062|fluid|field|net.mcreator.penismod.block.BlockCum|fluid
+      @|net/mcreator/penismod/block/BlockCum.java|2068|2081|FluidRegistry|class|net.minecraftforge.fluids.FluidRegistry|false
+      @|net/mcreator/penismod/block/BlockCum.java|2082|2099|addBucketForFluid|method|net.minecraftforge.fluids.FluidRegistry|addBucketForFluid|(Lnet/minecraftforge/fluids/Fluid;)Z
+      @|net/mcreator/penismod/block/BlockCum.java|2100|2105|fluid|field|net.mcreator.penismod.block.BlockCum|fluid
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
-      @|net/mcreator/penismod/block/BlockCum.java|2156|2161|event|param|net.mcreator.penismod.block.BlockCum|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
-      @|net/mcreator/penismod/block/BlockCum.java|2074|2082|Override|class|java.lang.Override|false
-      @|net/mcreator/penismod/block/BlockCum.java|2086|2094|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
-      @|net/mcreator/penismod/block/BlockCum.java|2095|2099|Side|class|net.minecraftforge.fml.relauncher.Side|false
-      @|net/mcreator/penismod/block/BlockCum.java|2100|2106|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-      @|net/mcreator/penismod/block/BlockCum.java|2122|2136|registerModels|method|net.mcreator.penismod.ElementsPenismod.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
-      @|net/mcreator/penismod/block/BlockCum.java|2137|2155|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
-      @|net/mcreator/penismod/block/BlockCum.java|2168|2179|ModelBakery|class|net.minecraft.client.renderer.block.model.ModelBakery|false
-      @|net/mcreator/penismod/block/BlockCum.java|2180|2200|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
-      @|net/mcreator/penismod/block/BlockCum.java|2201|2205|item|field|net.mcreator.penismod.block.BlockCum|item
-      @|net/mcreator/penismod/block/BlockCum.java|2211|2222|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
-      @|net/mcreator/penismod/block/BlockCum.java|2223|2246|setCustomMeshDefinition|method|net.minecraftforge.client.model.ModelLoader|setCustomMeshDefinition|(Lnet/minecraft/item/Item;Lnet/minecraft/client/renderer/ItemMeshDefinition;)V
-      @|net/mcreator/penismod/block/BlockCum.java|2247|2251|item|field|net.mcreator.penismod.block.BlockCum|item
-      @|net/mcreator/penismod/block/BlockCum.java|2257|2275|ItemMeshDefinition|class|net.minecraft.client.renderer.ItemMeshDefinition|false
+      @|net/mcreator/penismod/block/BlockCum.java|2199|2204|event|param|net.mcreator.penismod.block.BlockCum|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/penismod/block/BlockCum.java|2117|2125|Override|class|java.lang.Override|false
+      @|net/mcreator/penismod/block/BlockCum.java|2129|2137|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/penismod/block/BlockCum.java|2138|2142|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/penismod/block/BlockCum.java|2143|2149|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/penismod/block/BlockCum.java|2165|2179|registerModels|method|net.mcreator.penismod.ElementsPenismod.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/penismod/block/BlockCum.java|2180|2198|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/penismod/block/BlockCum.java|2211|2222|ModelBakery|class|net.minecraft.client.renderer.block.model.ModelBakery|false
+      @|net/mcreator/penismod/block/BlockCum.java|2223|2243|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|net/mcreator/penismod/block/BlockCum.java|2244|2248|item|field|net.mcreator.penismod.block.BlockCum|item
+      @|net/mcreator/penismod/block/BlockCum.java|2254|2265|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/penismod/block/BlockCum.java|2266|2289|setCustomMeshDefinition|method|net.minecraftforge.client.model.ModelLoader|setCustomMeshDefinition|(Lnet/minecraft/item/Item;Lnet/minecraft/client/renderer/ItemMeshDefinition;)V
+      @|net/mcreator/penismod/block/BlockCum.java|2290|2294|item|field|net.mcreator.penismod.block.BlockCum|item
+      @|net/mcreator/penismod/block/BlockCum.java|2300|2318|ItemMeshDefinition|class|net.minecraft.client.renderer.ItemMeshDefinition|false
       Anon Class Start: net.mcreator.penismod.block.BlockCum$2
          Method Start: getModelLocation(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
-            @|net/mcreator/penismod/block/BlockCum.java|2354|2359|stack|param|net.mcreator.penismod.block.BlockCum$2|getModelLocation|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;|stack|0
-            @|net/mcreator/penismod/block/BlockCum.java|2285|2293|Override|class|java.lang.Override|false
-            @|net/mcreator/penismod/block/BlockCum.java|2305|2326|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
-            @|net/mcreator/penismod/block/BlockCum.java|2327|2343|getModelLocation|method|net.minecraft.client.renderer.ItemMeshDefinition|getModelLocation|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
-            @|net/mcreator/penismod/block/BlockCum.java|2344|2353|ItemStack|class|net.minecraft.item.ItemStack|false
-            @|net/mcreator/penismod/block/BlockCum.java|2379|2400|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+            @|net/mcreator/penismod/block/BlockCum.java|2397|2402|stack|param|net.mcreator.penismod.block.BlockCum$2|getModelLocation|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;|stack|0
+            @|net/mcreator/penismod/block/BlockCum.java|2328|2336|Override|class|java.lang.Override|false
+            @|net/mcreator/penismod/block/BlockCum.java|2348|2369|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+            @|net/mcreator/penismod/block/BlockCum.java|2370|2386|getModelLocation|method|net.minecraft.client.renderer.ItemMeshDefinition|getModelLocation|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
+            @|net/mcreator/penismod/block/BlockCum.java|2387|2396|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|net/mcreator/penismod/block/BlockCum.java|2422|2443|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
          Method End: getModelLocation(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
       Anon Class End: net.mcreator.penismod.block.BlockCum$2
-      @|net/mcreator/penismod/block/BlockCum.java|2441|2452|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
-      @|net/mcreator/penismod/block/BlockCum.java|2453|2473|setCustomStateMapper|method|net.minecraftforge.client.model.ModelLoader|setCustomStateMapper|(Lnet/minecraft/block/Block;Lnet/minecraft/client/renderer/block/statemap/IStateMapper;)V
-      @|net/mcreator/penismod/block/BlockCum.java|2474|2479|block|field|net.mcreator.penismod.block.BlockCum|block
-      @|net/mcreator/penismod/block/BlockCum.java|2485|2500|StateMapperBase|class|net.minecraft.client.renderer.block.statemap.StateMapperBase|false
+      @|net/mcreator/penismod/block/BlockCum.java|2484|2495|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/penismod/block/BlockCum.java|2496|2516|setCustomStateMapper|method|net.minecraftforge.client.model.ModelLoader|setCustomStateMapper|(Lnet/minecraft/block/Block;Lnet/minecraft/client/renderer/block/statemap/IStateMapper;)V
+      @|net/mcreator/penismod/block/BlockCum.java|2517|2522|block|field|net.mcreator.penismod.block.BlockCum|block
+      @|net/mcreator/penismod/block/BlockCum.java|2528|2543|StateMapperBase|class|net.minecraft.client.renderer.block.statemap.StateMapperBase|false
       Anon Class Start: net.mcreator.penismod.block.BlockCum$3
          Method Start: getModelResourceLocation(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
-            @|net/mcreator/penismod/block/BlockCum.java|2592|2597|state|param|net.mcreator.penismod.block.BlockCum$3|getModelResourceLocation|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;|state|0
-            @|net/mcreator/penismod/block/BlockCum.java|2510|2518|Override|class|java.lang.Override|false
-            @|net/mcreator/penismod/block/BlockCum.java|2533|2554|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
-            @|net/mcreator/penismod/block/BlockCum.java|2555|2579|getModelResourceLocation|method|net.minecraft.client.renderer.block.statemap.StateMapperBase|getModelResourceLocation|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
-            @|net/mcreator/penismod/block/BlockCum.java|2580|2591|IBlockState|class|net.minecraft.block.state.IBlockState|false
-            @|net/mcreator/penismod/block/BlockCum.java|2617|2638|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+            @|net/mcreator/penismod/block/BlockCum.java|2635|2640|state|param|net.mcreator.penismod.block.BlockCum$3|getModelResourceLocation|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;|state|0
+            @|net/mcreator/penismod/block/BlockCum.java|2553|2561|Override|class|java.lang.Override|false
+            @|net/mcreator/penismod/block/BlockCum.java|2576|2597|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+            @|net/mcreator/penismod/block/BlockCum.java|2598|2622|getModelResourceLocation|method|net.minecraft.client.renderer.block.statemap.StateMapperBase|getModelResourceLocation|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
+            @|net/mcreator/penismod/block/BlockCum.java|2623|2634|IBlockState|class|net.minecraft.block.state.IBlockState|false
+            @|net/mcreator/penismod/block/BlockCum.java|2660|2681|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
          Method End: getModelResourceLocation(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
       Anon Class End: net.mcreator.penismod.block.BlockCum$3
    Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
@@ -4557,7 +4560,7 @@ Class Start: net.mcreator.penismod.item.ItemBomb
 Class End  : net.mcreator.penismod.item.ItemBomb
 endProcessing "net/mcreator/penismod/item/ItemBomb.java"
 
-startProcessing "net/mcreator/penismod/item/ItemCumpot.java" md5: da067568162ffab33b4d3c6f0c7eb528
+startProcessing "net/mcreator/penismod/item/ItemCumpot.java" md5: 2f01f4d2487b79b8128a70ac4bd67fa8
 @|net/mcreator/penismod/item/ItemCumpot.java|10|36|net.mcreator.penismod.item|package|net.mcreator.penismod.item|(file)
 Class Start: net.mcreator.penismod.item.ItemCumpot
    @|net/mcreator/penismod/item/ItemCumpot.java|1007|1038|ElementsPenismod.ModElement.Tag|class|net.mcreator.penismod.ElementsPenismod.ModElement.Tag|false
@@ -4692,9 +4695,10 @@ Class Start: net.mcreator.penismod.item.ItemCumpot
          @|net/mcreator/penismod/item/ItemCumpot.java|3207|3210|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
          @|net/mcreator/penismod/item/ItemCumpot.java|3240|3243|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
          @|net/mcreator/penismod/item/ItemCumpot.java|3273|3276|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-         @|net/mcreator/penismod/item/ItemCumpot.java|3286|3291|world|param|net.mcreator.penismod.item.ItemCumpot.ItemCustom|onItemUseFirst|(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFLnet/minecraft/util/EnumHand;)Lnet/minecraft/util/EnumActionResult;|world|1
-         @|net/mcreator/penismod/item/ItemCumpot.java|3299|3333|ProcedureCumpotRightClickedOnBlock|class|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|false
-         @|net/mcreator/penismod/item/ItemCumpot.java|3334|3350|executeProcedure|method|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V
+         @|net/mcreator/penismod/item/ItemCumpot.java|3322|3325|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         @|net/mcreator/penismod/item/ItemCumpot.java|3335|3340|world|param|net.mcreator.penismod.item.ItemCumpot.ItemCustom|onItemUseFirst|(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFLnet/minecraft/util/EnumHand;)Lnet/minecraft/util/EnumActionResult;|world|1
+         @|net/mcreator/penismod/item/ItemCumpot.java|3348|3382|ProcedureCumpotRightClickedOnBlock|class|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|false
+         @|net/mcreator/penismod/item/ItemCumpot.java|3383|3399|executeProcedure|method|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V
       Method End: onItemUseFirst(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFLnet/minecraft/util/EnumHand;)Lnet/minecraft/util/EnumActionResult;
    Class End  : net.mcreator.penismod.item.ItemCumpot.ItemCustom
 Class End  : net.mcreator.penismod.item.ItemCumpot
@@ -6372,84 +6376,97 @@ Class Start: net.mcreator.penismod.procedure.ProcedureCheckgolem
 Class End  : net.mcreator.penismod.procedure.ProcedureCheckgolem
 endProcessing "net/mcreator/penismod/procedure/ProcedureCheckgolem.java"
 
-startProcessing "net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java" md5: f169405285384a33e8aee2318b2e7a9e
+startProcessing "net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java" md5: 580beb94495b28c5c62fbf682d33bae5
 @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|8|39|net.mcreator.penismod.procedure|package|net.mcreator.penismod.procedure|(file)
 Class Start: net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock
-   @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|523|554|ElementsPenismod.ModElement.Tag|class|net.mcreator.penismod.ElementsPenismod.ModElement.Tag|false
-   @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|569|603|ProcedureCumpotRightClickedOnBlock|class|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|false
-   @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|612|639|ElementsPenismod.ModElement|class|net.mcreator.penismod.ElementsPenismod.ModElement|false
+   @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|589|620|ElementsPenismod.ModElement.Tag|class|net.mcreator.penismod.ElementsPenismod.ModElement.Tag|false
+   @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|635|669|ProcedureCumpotRightClickedOnBlock|class|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|false
+   @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|678|705|ElementsPenismod.ModElement|class|net.mcreator.penismod.ElementsPenismod.ModElement|false
    Method Start: ProcedureCumpotRightClickedOnBlock(Lnet/mcreator/penismod/ElementsPenismod;)V
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|703|711|instance|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|ProcedureCumpotRightClickedOnBlock|(Lnet/mcreator/penismod/ElementsPenismod;)V|instance|0
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|651|685|ProcedureCumpotRightClickedOnBlock|method|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|ProcedureCumpotRightClickedOnBlock|(Lnet/mcreator/penismod/ElementsPenismod;)V
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|686|702|ElementsPenismod|class|net.mcreator.penismod.ElementsPenismod|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|724|732|instance|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|ProcedureCumpotRightClickedOnBlock|(Lnet/mcreator/penismod/ElementsPenismod;)V|instance|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|769|777|instance|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|ProcedureCumpotRightClickedOnBlock|(Lnet/mcreator/penismod/ElementsPenismod;)V|instance|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|717|751|ProcedureCumpotRightClickedOnBlock|method|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|ProcedureCumpotRightClickedOnBlock|(Lnet/mcreator/penismod/ElementsPenismod;)V
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|752|768|ElementsPenismod|class|net.mcreator.penismod.ElementsPenismod|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|790|798|instance|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|ProcedureCumpotRightClickedOnBlock|(Lnet/mcreator/penismod/ElementsPenismod;)V|instance|0
    Method End: ProcedureCumpotRightClickedOnBlock(Lnet/mcreator/penismod/ElementsPenismod;)V
    Method Start: executeProcedure(Ljava/util/HashMap;)V
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|817|829|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|766|782|executeProcedure|method|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|783|800|java.util.HashMap|class|java.util.HashMap|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|801|807|String|class|java.lang.String|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|809|815|Object|class|java.lang.Object|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|840|852|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|853|856|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|882|888|System|class|java.lang.System|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|889|892|err|field|java.lang.System|err
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|893|900|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1003|1015|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1016|1019|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1040|1046|System|class|java.lang.System|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1047|1050|err|field|java.lang.System|err
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1051|1058|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1156|1168|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1169|1172|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1193|1199|System|class|java.lang.System|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1200|1203|err|field|java.lang.System|err
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1204|1211|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1309|1321|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1322|1325|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1346|1352|System|class|java.lang.System|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1353|1356|err|field|java.lang.System|err
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1357|1364|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1462|1474|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1475|1478|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1503|1509|System|class|java.lang.System|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1510|1513|err|field|java.lang.System|err
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1514|1521|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1619|1625|Entity|class|net.minecraft.entity.Entity|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1636|1642|Entity|class|net.minecraft.entity.Entity|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1644|1656|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1657|1660|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1689|1701|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1702|1705|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1729|1741|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1742|1745|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1769|1781|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1782|1785|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1795|1800|World|class|net.minecraft.world.World|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1810|1815|World|class|net.minecraft.world.World|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1817|1829|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1830|1833|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1859|1869|isSneaking|method|net.minecraft.entity.Entity|isSneaking|()Z
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1886|1899|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1904|1912|BlockPos|class|net.minecraft.util.math.BlockPos|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1947|1955|BlockCum|class|net.mcreator.penismod.block.BlockCum|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1956|1961|block|field|net.mcreator.penismod.block.BlockCum|block
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1962|1977|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2023|2039|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2048|2064|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2074|2089|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2094|2106|PotionEffect|class|net.minecraft.potion.PotionEffect|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2107|2117|MobEffects|class|net.minecraft.init.MobEffects|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2118|2126|STRENGTH|field|net.minecraft.init.MobEffects|STRENGTH
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2160|2169|playSound|method|net.minecraft.world.World|playSound|(Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2171|2183|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2207|2236|net.minecraft.util.SoundEvent|class|net.minecraft.util.SoundEvent|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2238|2267|net.minecraft.util.SoundEvent|class|net.minecraft.util.SoundEvent|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2268|2276|REGISTRY|field|net.minecraft.util.SoundEvent|REGISTRY
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2277|2286|getObject|method|net.minecraft.util.registry.IRegistry|getObject|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2291|2307|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2336|2349|SoundCategory|class|net.minecraft.util.SoundCategory|false
-      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2350|2357|NEUTRAL|field|net.minecraft.util.SoundCategory|NEUTRAL
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|883|895|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|832|848|executeProcedure|method|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|849|866|java.util.HashMap|class|java.util.HashMap|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|867|873|String|class|java.lang.String|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|875|881|Object|class|java.lang.Object|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|906|918|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|919|922|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|948|954|System|class|java.lang.System|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|955|958|err|field|java.lang.System|err
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|959|966|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1069|1081|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1082|1085|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1106|1112|System|class|java.lang.System|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1113|1116|err|field|java.lang.System|err
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1117|1124|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1222|1234|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1235|1238|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1259|1265|System|class|java.lang.System|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1266|1269|err|field|java.lang.System|err
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1270|1277|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1375|1387|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1388|1391|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1412|1418|System|class|java.lang.System|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1419|1422|err|field|java.lang.System|err
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1423|1430|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1528|1540|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1541|1544|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1573|1579|System|class|java.lang.System|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1580|1583|err|field|java.lang.System|err
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1584|1591|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1697|1709|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1710|1713|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1738|1744|System|class|java.lang.System|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1745|1748|err|field|java.lang.System|err
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1749|1756|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1854|1860|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1871|1877|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1879|1891|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1892|1895|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1924|1936|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1937|1940|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1964|1976|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|1977|1980|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2004|2016|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2017|2020|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2030|2039|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2053|2062|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2064|2076|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2077|2080|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2098|2103|World|class|net.minecraft.world.World|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2113|2118|World|class|net.minecraft.world.World|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2120|2132|dependencies|param|net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2133|2136|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2162|2172|isSneaking|method|net.minecraft.entity.Entity|isSneaking|()Z
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2189|2202|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2207|2215|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2250|2258|BlockCum|class|net.mcreator.penismod.block.BlockCum|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2259|2264|block|field|net.mcreator.penismod.block.BlockCum|block
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2265|2280|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2326|2342|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2351|2367|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2377|2392|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2397|2409|PotionEffect|class|net.minecraft.potion.PotionEffect|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2410|2420|MobEffects|class|net.minecraft.init.MobEffects|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2421|2429|STRENGTH|field|net.minecraft.init.MobEffects|STRENGTH
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2463|2472|playSound|method|net.minecraft.world.World|playSound|(Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2474|2486|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2510|2539|net.minecraft.util.SoundEvent|class|net.minecraft.util.SoundEvent|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2541|2570|net.minecraft.util.SoundEvent|class|net.minecraft.util.SoundEvent|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2571|2579|REGISTRY|field|net.minecraft.util.SoundEvent|REGISTRY
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2580|2589|getObject|method|net.minecraft.util.registry.IRegistry|getObject|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2594|2610|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2639|2652|SoundCategory|class|net.minecraft.util.SoundCategory|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2653|2660|NEUTRAL|field|net.minecraft.util.SoundCategory|NEUTRAL
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2703|2720|attemptDamageItem|method|net.minecraft.item.ItemStack|attemptDamageItem|(ILjava/util/Random;Lnet/minecraft/entity/player/EntityPlayerMP;)Z
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2734|2740|Random|class|java.util.Random|false
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2768|2774|shrink|method|net.minecraft.item.ItemStack|shrink|(I)V
+      @|net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java|2794|2807|setItemDamage|method|net.minecraft.item.ItemStack|setItemDamage|(I)V
    Method End: executeProcedure(Ljava/util/HashMap;)V
 Class End  : net.mcreator.penismod.procedure.ProcedureCumpotRightClickedOnBlock
 endProcessing "net/mcreator/penismod/procedure/ProcedureCumpotRightClickedOnBlock.java"
@@ -6888,4 +6905,28 @@ Class Start: net.mcreator.penismod.procedure.ProcedureSummonerOnBlockRightClicke
    Method End: executeProcedure(Ljava/util/HashMap;)V
 Class End  : net.mcreator.penismod.procedure.ProcedureSummonerOnBlockRightClicked
 endProcessing "net/mcreator/penismod/procedure/ProcedureSummonerOnBlockRightClicked.java"
+
+startProcessing "net/mcreator/penismod/util/LootTablePenislegendchest.java" md5: 6c28d2959e5d4b2d735966988400c608
+@|net/mcreator/penismod/util/LootTablePenislegendchest.java|10|36|net.mcreator.penismod.util|package|net.mcreator.penismod.util|(file)
+Class Start: net.mcreator.penismod.util.LootTablePenislegendchest
+   @|net/mcreator/penismod/util/LootTablePenislegendchest.java|265|296|ElementsPenismod.ModElement.Tag|class|net.mcreator.penismod.ElementsPenismod.ModElement.Tag|false
+   @|net/mcreator/penismod/util/LootTablePenislegendchest.java|311|336|LootTablePenislegendchest|class|net.mcreator.penismod.util.LootTablePenislegendchest|false
+   @|net/mcreator/penismod/util/LootTablePenislegendchest.java|345|372|ElementsPenismod.ModElement|class|net.mcreator.penismod.ElementsPenismod.ModElement|false
+   Method Start: LootTablePenislegendchest(Lnet/mcreator/penismod/ElementsPenismod;)V
+      @|net/mcreator/penismod/util/LootTablePenislegendchest.java|427|435|instance|param|net.mcreator.penismod.util.LootTablePenislegendchest|LootTablePenislegendchest|(Lnet/mcreator/penismod/ElementsPenismod;)V|instance|0
+      @|net/mcreator/penismod/util/LootTablePenislegendchest.java|384|409|LootTablePenislegendchest|method|net.mcreator.penismod.util.LootTablePenislegendchest|LootTablePenislegendchest|(Lnet/mcreator/penismod/ElementsPenismod;)V
+      @|net/mcreator/penismod/util/LootTablePenislegendchest.java|410|426|ElementsPenismod|class|net.mcreator.penismod.ElementsPenismod|false
+      @|net/mcreator/penismod/util/LootTablePenislegendchest.java|448|456|instance|param|net.mcreator.penismod.util.LootTablePenislegendchest|LootTablePenislegendchest|(Lnet/mcreator/penismod/ElementsPenismod;)V|instance|0
+   Method End: LootTablePenislegendchest(Lnet/mcreator/penismod/ElementsPenismod;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/mcreator/penismod/util/LootTablePenislegendchest.java|523|528|event|param|net.mcreator.penismod.util.LootTablePenislegendchest|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net/mcreator/penismod/util/LootTablePenislegendchest.java|472|480|Override|class|java.lang.Override|false
+      @|net/mcreator/penismod/util/LootTablePenislegendchest.java|495|499|init|method|net.mcreator.penismod.ElementsPenismod.ModElement|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net/mcreator/penismod/util/LootTablePenislegendchest.java|500|522|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|net/mcreator/penismod/util/LootTablePenislegendchest.java|535|548|LootTableList|class|net.minecraft.world.storage.loot.LootTableList|false
+      @|net/mcreator/penismod/util/LootTablePenislegendchest.java|549|557|register|method|net.minecraft.world.storage.loot.LootTableList|register|(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/util/ResourceLocation;
+      @|net/mcreator/penismod/util/LootTablePenislegendchest.java|562|578|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : net.mcreator.penismod.util.LootTablePenislegendchest
+endProcessing "net/mcreator/penismod/util/LootTablePenislegendchest.java"
 

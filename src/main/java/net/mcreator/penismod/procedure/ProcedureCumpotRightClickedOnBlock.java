@@ -5,6 +5,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.item.ItemStack;
 import net.minecraft.init.MobEffects;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.EntityLivingBase;
@@ -12,6 +13,8 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.penismod.block.BlockCum;
 import net.mcreator.penismod.ElementsPenismod;
+
+import java.util.Random;
 
 @ElementsPenismod.ModElement.Tag
 public class ProcedureCumpotRightClickedOnBlock extends ElementsPenismod.ModElement {
@@ -36,6 +39,10 @@ public class ProcedureCumpotRightClickedOnBlock extends ElementsPenismod.ModElem
 			System.err.println("Failed to load dependency z for procedure CumpotRightClickedOnBlock!");
 			return;
 		}
+		if (dependencies.get("itemstack") == null) {
+			System.err.println("Failed to load dependency itemstack for procedure CumpotRightClickedOnBlock!");
+			return;
+		}
 		if (dependencies.get("world") == null) {
 			System.err.println("Failed to load dependency world for procedure CumpotRightClickedOnBlock!");
 			return;
@@ -44,6 +51,7 @@ public class ProcedureCumpotRightClickedOnBlock extends ElementsPenismod.ModElem
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
+		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		World world = (World) dependencies.get("world");
 		if ((entity.isSneaking())) {
 			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), BlockCum.block.getDefaultState(), 3);
@@ -53,6 +61,10 @@ public class ProcedureCumpotRightClickedOnBlock extends ElementsPenismod.ModElem
 			world.playSound((EntityPlayer) null, x, y, z,
 					(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("item.bucket.fill")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
+			if (itemstack.attemptDamageItem((int) 1, new Random(), null)) {
+				itemstack.shrink(1);
+				itemstack.setItemDamage(0);
+			}
 		}
 	}
 }

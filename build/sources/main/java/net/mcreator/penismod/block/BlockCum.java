@@ -48,6 +48,7 @@ public class BlockCum extends ElementsPenismod.ModElement {
 	@Override
 	public void preInit(FMLPreInitializationEvent event) {
 		FluidRegistry.registerFluid(fluid);
+		FluidRegistry.addBucketForFluid(fluid);
 	}
 
 	@Override

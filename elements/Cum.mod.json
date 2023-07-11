@@ -10,7 +10,7 @@
     "viscosity": 7500,
     "isGas": false,
     "type": "WATER",
-    "generateBucket": false,
+    "generateBucket": true,
     "creativeTab": {
       "value": "MISC"
     },

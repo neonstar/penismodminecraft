@@ -582,6 +582,10 @@
             "type": "int"
           },
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -719,6 +723,22 @@
       "name": "PenisFenceCraft",
       "type": "recipe",
       "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Penislegendchest",
+      "type": "loottable",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Cumpotcraft",
+      "type": "recipe",
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {}

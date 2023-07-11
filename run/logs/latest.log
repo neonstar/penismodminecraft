@@ -1,114 +1,114 @@
-[15:55:50] [main/INFO] [GradleStart]: Extra: []
-[15:55:50] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Kristina/.mcreator/gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[15:55:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[15:55:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[15:55:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[15:55:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[15:55:50] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
-[15:55:50] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_232, running on Windows 10:amd64:10.0, installed at C:\Program Files\Pylo\MCreator\jdk\jre
-[15:55:50] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[15:55:50] [main/ERROR] [FML]: Full: C:\Users\Kristina\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[15:55:50] [main/ERROR] [FML]: Trimmed: c:/users/kristina/.mcreator/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[15:55:50] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[15:55:50] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[15:55:50] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[15:55:50] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[15:55:50] [main/INFO] [FML]: Searching C:\Users\Kristina\Downloads\penismodminecraft\run\.\mods for mods
-[15:55:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[15:55:50] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[15:55:50] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[15:55:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:55:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[15:55:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[15:55:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:55:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:55:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:55:51] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[15:55:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:55:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[15:55:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[15:55:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[15:55:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[15:55:51] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[15:55:51] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player156
-[15:55:53] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[15:55:53] [main/INFO] [FML]: -- System Details --
+[04:46:56] [main/INFO] [GradleStart]: Extra: []
+[04:46:56] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/neon-pc/.mcreator/gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[04:46:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[04:46:56] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[04:46:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[04:46:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[04:46:56] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[04:46:56] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_232, running on Windows 10:amd64:10.0, installed at E:\MCreator\jdk\jre
+[04:46:56] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[04:46:56] [main/ERROR] [FML]: Full: C:\Users\neon-pc\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[04:46:56] [main/ERROR] [FML]: Trimmed: c:/users/neon-pc/.mcreator/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[04:46:56] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[04:46:56] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[04:46:56] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[04:46:56] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[04:46:56] [main/INFO] [FML]: Searching C:\Users\neon-pc\MCreatorWorkspaces\penismod\penismodminecraft\run\.\mods for mods
+[04:46:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[04:46:56] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[04:46:56] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[04:46:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:46:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[04:46:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[04:46:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:46:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:46:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:46:57] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[04:46:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:46:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[04:46:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[04:46:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[04:46:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[04:46:57] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[04:46:58] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player718
+[04:47:00] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[04:47:01] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_232, BellSoft
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), 
-	Memory: 201315296 bytes (191 MB) / 716177408 bytes (683 MB) up to 7624720384 bytes (7271 MB)
+	Memory: 125475704 bytes (119 MB) / 478674944 bytes (456 MB) up to 3787980800 bytes (3612 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 531.79' Renderer: 'NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2'
-[15:55:53] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
-[15:55:53] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[15:55:53] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[15:55:53] [main/INFO] [FML]: Searching C:\Users\Kristina\Downloads\penismodminecraft\run\.\mods for mods
-[15:55:54] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[15:55:54] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, penismod] at CLIENT
-[15:55:54] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, penismod] at SERVER
-[15:55:55] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Penismod
-[15:55:55] [main/INFO] [FML]: Processing ObjectHolder annotations
-[15:55:55] [main/INFO] [FML]: Found 1194 ObjectHolder annotations
-[15:55:55] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[15:55:55] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[15:55:55] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[15:55:55] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[15:55:55] [main/INFO] [FML]: OBJLoader: Domain penismod has been added.
-[15:55:55] [main/INFO] [FML]: Applying holder lookups
-[15:55:55] [main/INFO] [FML]: Holder lookups applied
-[15:55:55] [main/INFO] [FML]: Applying holder lookups
-[15:55:55] [main/INFO] [FML]: Holder lookups applied
-[15:55:55] [main/INFO] [FML]: Applying holder lookups
-[15:55:55] [main/INFO] [FML]: Holder lookups applied
-[15:55:55] [main/INFO] [FML]: Applying holder lookups
-[15:55:55] [main/INFO] [FML]: Holder lookups applied
-[15:55:55] [main/INFO] [FML]: Injecting itemstacks
-[15:55:55] [main/INFO] [FML]: Itemstack injection complete
-[15:55:55] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 104477304 nanos
-[15:55:56] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
-[15:55:57] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[15:55:57] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[15:55:57] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[15:55:57] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[15:55:57] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[15:55:58] [main/INFO] [FML]: OBJModel: A color has already been defined for material 'dingus' in 'penismod:models/item/lastlast.mtl'. The color defined by key 'Ks' will not be applied!
-[15:55:58] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'penismod:models/item/lastlast.mtl') is not currently supported, skipping
-[15:55:58] [main/INFO] [FML]: OBJLoader.Parser: command 's' (model: 'penismod:models/item/lastlast.obj') is not currently supported, skipping. Line: 910 's 1'
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/INFO] [FML]: OBJModel: A color has already been defined for material 'Material.002' in 'penismod:models/item/cat.mtl'. The color defined by key 'Ks' will not be applied!
-[15:55:58] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'penismod:models/item/cat.mtl') is not currently supported, skipping
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'penismod:models/item/octopus.mtl') is not currently supported, skipping
-[15:55:58] [main/INFO] [FML]: OBJModel: A color has already been defined for material 'initialShadingGroup' in 'penismod:models/item/octopus.mtl'. The color defined by key 'Ka' will not be applied!
-[15:55:58] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Tf' (model: 'penismod:models/item/octopus.mtl') is not currently supported, skipping
-[15:55:58] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'penismod:models/item/octopus.mtl') is not currently supported, skipping
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
-[15:55:58] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'penismod:models/item/flowerpot.mtl') is not currently supported, skipping
-[15:55:58] [main/INFO] [FML]: OBJModel: A color has already been defined for material 'Material' in 'penismod:models/item/flowerpot.mtl'. The color defined by key 'Ks' will not be applied!
-[15:55:58] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ke' (model: 'penismod:models/item/flowerpot.mtl') is not currently supported, skipping
-[15:55:58] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'penismod:models/item/flowerpot.mtl') is not currently supported, skipping
-[15:55:58] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'penismod:models/item/flowerpot.mtl') is not currently supported, skipping
-[15:55:59] [main/INFO] [FML]: Max texture size: 16384
-[15:55:59] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
-[15:56:00] [main/ERROR] [FML]: Parsing error loading recipe penismod:penishalfblockcraft
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 531.79' Renderer: 'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+[04:47:01] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[04:47:01] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[04:47:01] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[04:47:01] [main/INFO] [FML]: Searching C:\Users\neon-pc\MCreatorWorkspaces\penismod\penismodminecraft\run\.\mods for mods
+[04:47:02] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[04:47:02] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, penismod] at CLIENT
+[04:47:02] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, penismod] at SERVER
+[04:47:03] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Penismod
+[04:47:03] [main/INFO] [FML]: Processing ObjectHolder annotations
+[04:47:03] [main/INFO] [FML]: Found 1194 ObjectHolder annotations
+[04:47:03] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[04:47:03] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[04:47:03] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 109873397 nanos
+[04:47:03] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[04:47:03] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[04:47:03] [main/INFO] [FML]: OBJLoader: Domain penismod has been added.
+[04:47:03] [main/INFO] [FML]: Applying holder lookups
+[04:47:03] [main/INFO] [FML]: Holder lookups applied
+[04:47:03] [main/INFO] [FML]: Applying holder lookups
+[04:47:03] [main/INFO] [FML]: Holder lookups applied
+[04:47:03] [main/INFO] [FML]: Applying holder lookups
+[04:47:03] [main/INFO] [FML]: Holder lookups applied
+[04:47:03] [main/INFO] [FML]: Applying holder lookups
+[04:47:03] [main/INFO] [FML]: Holder lookups applied
+[04:47:03] [main/INFO] [FML]: Injecting itemstacks
+[04:47:03] [main/INFO] [FML]: Itemstack injection complete
+[04:47:05] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
+[04:47:05] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[04:47:05] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[04:47:05] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[04:47:05] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[04:47:06] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[04:47:07] [main/INFO] [FML]: OBJModel: A color has already been defined for material 'dingus' in 'penismod:models/item/lastlast.mtl'. The color defined by key 'Ks' will not be applied!
+[04:47:07] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'penismod:models/item/lastlast.mtl') is not currently supported, skipping
+[04:47:07] [main/INFO] [FML]: OBJLoader.Parser: command 's' (model: 'penismod:models/item/lastlast.obj') is not currently supported, skipping. Line: 910 's 1'
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/INFO] [FML]: OBJModel: A color has already been defined for material 'Material.002' in 'penismod:models/item/cat.mtl'. The color defined by key 'Ks' will not be applied!
+[04:47:07] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'penismod:models/item/cat.mtl') is not currently supported, skipping
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'penismod:models/item/octopus.mtl') is not currently supported, skipping
+[04:47:07] [main/INFO] [FML]: OBJModel: A color has already been defined for material 'initialShadingGroup' in 'penismod:models/item/octopus.mtl'. The color defined by key 'Ka' will not be applied!
+[04:47:07] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Tf' (model: 'penismod:models/item/octopus.mtl') is not currently supported, skipping
+[04:47:07] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'penismod:models/item/octopus.mtl') is not currently supported, skipping
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/WARN] [FML]: OBJModel.Parser: found a face ('f') with more than 4 vertices, only the first 4 of these vertices will be rendered!
+[04:47:07] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ns' (model: 'penismod:models/item/flowerpot.mtl') is not currently supported, skipping
+[04:47:07] [main/INFO] [FML]: OBJModel: A color has already been defined for material 'Material' in 'penismod:models/item/flowerpot.mtl'. The color defined by key 'Ks' will not be applied!
+[04:47:07] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ke' (model: 'penismod:models/item/flowerpot.mtl') is not currently supported, skipping
+[04:47:07] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'Ni' (model: 'penismod:models/item/flowerpot.mtl') is not currently supported, skipping
+[04:47:07] [main/INFO] [FML]: OBJLoader.MaterialLibrary: key 'illum' (model: 'penismod:models/item/flowerpot.mtl') is not currently supported, skipping
+[04:47:08] [main/INFO] [FML]: Max texture size: 16384
+[04:47:08] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
+[04:47:09] [main/ERROR] [FML]: Parsing error loading recipe penismod:penishalfblockcraft
 com.google.gson.JsonParseException: Missing data for item 'penismod:penishalfblock'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:215) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:516) ~[CraftingHelper.class:?]
@@ -135,45 +135,49 @@ com.google.gson.JsonParseException: Missing data for item 'penismod:penishalfblo
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_232]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:25) [start/:?]
-[15:56:00] [main/INFO] [FML]: Applying holder lookups
-[15:56:00] [main/INFO] [FML]: Holder lookups applied
-[15:56:00] [main/INFO] [FML]: Injecting itemstacks
-[15:56:00] [main/INFO] [FML]: Itemstack injection complete
-[15:56:00] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[15:56:00] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[15:56:01] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[15:56:03] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[15:56:03] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[15:56:04] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[15:56:04] [Server thread/INFO] [FML]: Applying holder lookups
-[15:56:04] [Server thread/INFO] [FML]: Holder lookups applied
-[15:56:04] [Server thread/INFO] [FML]: Loading dimension 0 (newworldlast) (net.minecraft.server.integrated.IntegratedServer@52babffb)
-[15:56:04] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[15:56:04] [Server thread/INFO] [FML]: Loading dimension -1 (newworldlast) (net.minecraft.server.integrated.IntegratedServer@52babffb)
-[15:56:04] [Server thread/INFO] [FML]: Loading dimension 1 (newworldlast) (net.minecraft.server.integrated.IntegratedServer@52babffb)
-[15:56:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[15:56:05] [Server thread/INFO] [FML]: Unloading dimension -1
-[15:56:05] [Server thread/INFO] [FML]: Unloading dimension 1
-[15:56:05] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 5, from 10
-[15:56:06] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[15:56:06] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[15:56:06] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,penismod@1.0.0,forge@14.23.5.2768,mcp@9.42
-[15:56:06] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[15:56:06] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[15:56:06] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player156[local:E:eff05fac] logged in with entity id 470 at (45.14442497378345, 67.0, 129.94306011512106)
-[15:56:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player156 joined the game
-[15:56:07] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[15:56:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'newworldlast'/overworld
-[15:56:07] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 5 advancements
-[15:57:25] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[15:57:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'newworldlast'/overworld
-[15:57:27] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[15:57:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[15:57:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[15:57:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[15:57:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'newworldlast'/overworld
-[15:57:27] [Server thread/INFO] [FML]: Unloading dimension 0
-[15:57:27] [Server thread/INFO] [FML]: Applying holder lookups
-[15:57:27] [Server thread/INFO] [FML]: Holder lookups applied
-[15:57:27] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[15:57:27] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[04:47:09] [main/INFO] [FML]: Applying holder lookups
+[04:47:09] [main/INFO] [FML]: Holder lookups applied
+[04:47:09] [main/INFO] [FML]: Injecting itemstacks
+[04:47:09] [main/INFO] [FML]: Itemstack injection complete
+[04:47:09] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[04:47:09] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[04:47:10] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[04:47:12] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[04:47:12] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[04:47:12] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[04:47:12] [Server thread/INFO] [FML]: Applying holder lookups
+[04:47:12] [Server thread/INFO] [FML]: Holder lookups applied
+[04:47:12] [Server thread/INFO] [FML]: Loading dimension 0 (newworldlast) (net.minecraft.server.integrated.IntegratedServer@2eb8fddd)
+[04:47:12] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[04:47:12] [Server thread/INFO] [FML]: Loading dimension -1 (newworldlast) (net.minecraft.server.integrated.IntegratedServer@2eb8fddd)
+[04:47:12] [Server thread/INFO] [FML]: Loading dimension 1 (newworldlast) (net.minecraft.server.integrated.IntegratedServer@2eb8fddd)
+[04:47:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[04:47:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 82%
+[04:47:14] [Server thread/INFO] [FML]: Unloading dimension -1
+[04:47:14] [Server thread/INFO] [FML]: Unloading dimension 1
+[04:47:14] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 5, from 10
+[04:47:15] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[04:47:15] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[04:47:15] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,penismod@1.0.0,forge@14.23.5.2768,mcp@9.42
+[04:47:15] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[04:47:15] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[04:47:15] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player718[local:E:267203d9] logged in with entity id 481 at (53.10955377659756, 68.0, 132.9366659764525)
+[04:47:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player718 joined the game
+[04:47:15] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[04:47:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'newworldlast'/overworld
+[04:47:16] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 5 advancements
+[04:47:48] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[04:47:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'newworldlast'/overworld
+[04:47:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[04:47:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[04:47:48] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player718 lost connection: Disconnected
+[04:47:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player718 left the game
+[04:47:48] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[04:47:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[04:47:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'newworldlast'/overworld
+[04:47:49] [Server thread/INFO] [FML]: Unloading dimension 0
+[04:47:49] [Server thread/INFO] [FML]: Applying holder lookups
+[04:47:49] [Server thread/INFO] [FML]: Holder lookups applied
+[04:47:50] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[04:47:50] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[04:47:50] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

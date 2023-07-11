@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "textureplaceholder",
+    "texture": "cumpottexture",
     "customModelName": "Normal",
     "name": "Cumpot",
     "creativeTab": {
