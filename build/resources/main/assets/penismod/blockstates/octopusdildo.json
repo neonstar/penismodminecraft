@@ -1,0 +1,39 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "penismod:octopus.obj"
+  },
+  "variants": {
+    "normal": {
+      "model": "penismod:octopus.obj"
+    },
+    "facing=north": {
+      "model": "penismod:octopus.obj"
+    },
+    "facing=east": {
+      "model": "penismod:octopus.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "penismod:octopus.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "penismod:octopus.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "penismod:octopus.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "penismod:octopus.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

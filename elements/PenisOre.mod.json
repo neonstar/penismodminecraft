@@ -2,12 +2,12 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "ore",
-    "textureTop": "ore",
-    "textureLeft": "ore",
-    "textureFront": "ore",
-    "textureRight": "ore",
-    "textureBack": "ore",
+    "texture": "penis_ore",
+    "textureTop": "penis_ore",
+    "textureLeft": "penis_ore",
+    "textureFront": "penis_ore",
+    "textureRight": "penis_ore",
+    "textureBack": "penis_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -66,7 +66,7 @@
     "breakHarvestLevel": 3,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "FLASH"
+      "value": "PORTAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,

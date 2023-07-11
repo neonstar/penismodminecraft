@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 10,
-    "GUI": 2
+    "GUI": 2,
+    "ENTITY": 10
   },
   "mod_elements": [
     {
@@ -634,6 +634,30 @@
           }
         ]
       }
+    },
+    {
+      "name": "PenisLegendCraft",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OctopusDildo",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OctupusDildoCraft",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -646,6 +670,7 @@
   ],
   "language_map": {
     "en_us": {
+      "tile.octopusdildo.name": "Octopus Dildo",
       "item.huesospotionnn.name": "Huesospotionnn",
       "tile.cattwo.name": "Cat Two",
       "item.cumpot.name": "Cumpot",

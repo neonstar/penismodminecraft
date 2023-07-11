@@ -1,4 +1,4 @@
-Processing 44 files
+Processing 45 files
 Start Processing: net/mcreator/penismod/ClientProxyPenismod.java
 Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
 Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -271,6 +271,47 @@ Import: net.minecraft.block.SoundType
 Import: net.minecraft.block.Block
 Import: net.mcreator.penismod.ElementsPenismod
 End  Processing: net/mcreator/penismod/block/BlockMaxwellblock.java
+
+Start Processing: net/mcreator/penismod/block/BlockOctopusDildo.java
+New Key: class net/mcreator/penismod/ElementsPenismod
+New Key: class net/mcreator/penismod/ElementsPenismod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/penismod/block/BlockOctopusDildo/BlockOctopusDildo (Lnet/mcreator/penismod/ElementsPenismod;)V net/mcreator/penismod/block/BlockOctopusDildo
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1513,1529]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/penismod/block/BlockOctopusDildo/BlockCustom/BlockCustom ()V net/mcreator/penismod/block/BlockOctopusDildo/BlockCustom
+Rename field net/minecraft/block/material/Material/CLOTH[1703,1708]::CLOTH->field_151580_n
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1724,1742]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1759,1771]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/GLASS[1783,1788]::GLASS->field_185853_f
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1804,1815]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1827,1840]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1851,1864]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1874,1889]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1896,1910]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/DECORATIONS[1923,1934]::DECORATIONS->field_78031_c
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2013,2036]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2100,2109]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2154,2164]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2261,2271]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2352,2364]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.math.AxisAlignedBB
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.penismod.ElementsPenismod
+End  Processing: net/mcreator/penismod/block/BlockOctopusDildo.java
 
 Start Processing: net/mcreator/penismod/block/BlockPenisOre.java
 New Key: class net/mcreator/penismod/ElementsPenismod

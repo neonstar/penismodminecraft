@@ -1,8 +1,20 @@
 {
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-07-11 10:38:43 +0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "plains": "2023-07-10 16:21:25 +0500"
+      "plains": "2023-07-10 14:21:25 +0300"
     },
     "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-07-11 10:38:43 +0300"
+    },
+    "done": true
   }
 }

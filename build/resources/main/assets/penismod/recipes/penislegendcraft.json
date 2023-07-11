@@ -1,0 +1,17 @@
+{
+  "group": "penismod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "record"
+    },
+    {
+      "item": "penismod:penisgem"
+    }
+  ],
+  "result": {
+    "item": "penismod:penislegend",
+    "count": 1
+  }
+}

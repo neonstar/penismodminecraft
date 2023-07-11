@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "penismod:blocks/ore",
-    "up": "penismod:blocks/ore",
-    "north": "penismod:blocks/ore",
-    "east": "penismod:blocks/ore",
-    "south": "penismod:blocks/ore",
-    "west": "penismod:blocks/ore",
-    "particle": "penismod:blocks/ore"
+    "down": "penismod:blocks/penis_ore",
+    "up": "penismod:blocks/penis_ore",
+    "north": "penismod:blocks/penis_ore",
+    "east": "penismod:blocks/penis_ore",
+    "south": "penismod:blocks/penis_ore",
+    "west": "penismod:blocks/penis_ore",
+    "particle": "penismod:blocks/penis_ore"
   }
 }
