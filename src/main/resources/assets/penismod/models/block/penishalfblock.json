@@ -1,0 +1,8 @@
+{
+  "parent": "block/half_slab",
+  "textures": {
+    "bottom": "penismod:blocks/penis_halfblock",
+    "top": "penismod:blocks/penis_halfblock",
+    "side": "penismod:blocks/penis_halfblock"
+  }
+}

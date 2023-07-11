@@ -1,0 +1,33 @@
+{
+  "group": "penismod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "penismod:penisblock"
+    },
+    "4": {
+      "item": "penismod:penisblock"
+    },
+    "5": {
+      "item": "penismod:penisblock"
+    },
+    "6": {
+      "item": "penismod:penisblock"
+    },
+    "7": {
+      "item": "penismod:penisblock"
+    },
+    "8": {
+      "item": "penismod:penisblock"
+    }
+  },
+  "result": {
+    "item": "penismod:penisstairs",
+    "count": 6
+  }
+}

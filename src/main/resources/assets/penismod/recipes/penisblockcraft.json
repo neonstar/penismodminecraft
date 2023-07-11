@@ -1,0 +1,42 @@
+{
+  "group": "penismod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "penismod:penisgem"
+    },
+    "1": {
+      "item": "penismod:penisgem"
+    },
+    "2": {
+      "item": "penismod:penisgem"
+    },
+    "3": {
+      "item": "penismod:penisgem"
+    },
+    "4": {
+      "item": "penismod:penisgem"
+    },
+    "5": {
+      "item": "penismod:penisgem"
+    },
+    "6": {
+      "item": "penismod:penisgem"
+    },
+    "7": {
+      "item": "penismod:penisgem"
+    },
+    "8": {
+      "item": "penismod:penisgem"
+    }
+  },
+  "result": {
+    "item": "penismod:penisblock",
+    "count": 1
+  }
+}

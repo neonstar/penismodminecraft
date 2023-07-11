@@ -1,44 +1,62 @@
 {
   "minecraft:recipes/building_blocks/lit_pumpkin": {
     "criteria": {
-      "has_pumpkin": "2023-07-10 17:52:10 +0500"
+      "has_pumpkin": "2023-07-10 15:52:10 +0300"
     },
     "done": true
   },
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
-      "has_iron_block": "2023-07-10 17:52:10 +0500"
+      "has_iron_block": "2023-07-10 15:52:10 +0300"
     },
     "done": true
   },
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
-      "has_pumpkin": "2023-07-10 17:52:10 +0500"
+      "has_pumpkin": "2023-07-10 15:52:10 +0300"
     },
     "done": true
   },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_lots_of_items": "2023-07-10 17:52:10 +0500"
+      "has_lots_of_items": "2023-07-10 15:52:10 +0300"
     },
     "done": true
   },
   "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
-      "has_pumpkin": "2023-07-10 17:52:10 +0500"
+      "has_pumpkin": "2023-07-10 15:52:10 +0300"
     },
     "done": true
   },
   "minecraft:recipes/misc/iron_ingot_from_block": {
     "criteria": {
-      "has_iron_block": "2023-07-10 17:52:10 +0500"
+      "has_iron_block": "2023-07-10 15:52:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2023-07-11 13:34:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
+    "criteria": {
+      "has_black_dye": "2023-07-11 13:34:43 +0300"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "plains": "2023-07-10 17:52:10 +0500"
+      "plains": "2023-07-10 15:52:10 +0300"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
+    "criteria": {
+      "has_black_dye": "2023-07-11 13:34:43 +0300"
+    },
+    "done": true
   }
 }

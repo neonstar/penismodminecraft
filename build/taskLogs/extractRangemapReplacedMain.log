@@ -1,7 +1,7 @@
 Unsupposrted library path: C:\Users\Kristina\Downloads\penismodminecraft\build\classes\java\api
 Unsupposrted library path: C:\Users\Kristina\Downloads\penismodminecraft\build\resources\api
 Symbol range map extraction starting
-Processing 45 files
+Processing 49 files
 startProcessing "net/mcreator/penismod/ClientProxyPenismod.java" md5: fe81291d9c62e5c52ac9f7f48f0f0a10
 endProcessing "net/mcreator/penismod/ClientProxyPenismod.java"
 
@@ -32,8 +32,20 @@ endProcessing "net/mcreator/penismod/block/BlockMaxwellblock.java"
 startProcessing "net/mcreator/penismod/block/BlockOctopusDildo.java" md5: a49dd754e035bda0b4b6d1d156931ae1
 endProcessing "net/mcreator/penismod/block/BlockOctopusDildo.java"
 
+startProcessing "net/mcreator/penismod/block/BlockPenisBlock.java" md5: 5440f6a77216bc9323c66957d0713fbe
+endProcessing "net/mcreator/penismod/block/BlockPenisBlock.java"
+
+startProcessing "net/mcreator/penismod/block/BlockPenisFence.java" md5: 3c3ee6bc490272816a14cfd166d6af68
+endProcessing "net/mcreator/penismod/block/BlockPenisFence.java"
+
+startProcessing "net/mcreator/penismod/block/BlockPenisHalfBlock.java" md5: 993e1a5950644872a8fbb120e9dcb52f
+endProcessing "net/mcreator/penismod/block/BlockPenisHalfBlock.java"
+
 startProcessing "net/mcreator/penismod/block/BlockPenisOre.java" md5: 47f3b1d6f7014f2c171088b9f4acb318
 endProcessing "net/mcreator/penismod/block/BlockPenisOre.java"
+
+startProcessing "net/mcreator/penismod/block/BlockPenisStairs.java" md5: f2cbd991b4c157a673d83e197a05822c
+endProcessing "net/mcreator/penismod/block/BlockPenisStairs.java"
 
 startProcessing "net/mcreator/penismod/block/BlockScalaSummoner.java" md5: 7622bbb713c5b643d5034ae44e59c146
 endProcessing "net/mcreator/penismod/block/BlockScalaSummoner.java"

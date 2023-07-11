@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PenisBlock"
+      },
+      {
+        "value": "CUSTOM:PenisGem"
+      },
+      {
+        "value": "CUSTOM:PenisBlock"
+      },
+      {
+        "value": "CUSTOM:PenisBlock"
+      },
+      {
+        "value": "CUSTOM:PenisGem"
+      },
+      {
+        "value": "CUSTOM:PenisBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PenisFence"
+    },
+    "name": "penisfencecraft",
+    "namespace": "mod"
+  }
+}

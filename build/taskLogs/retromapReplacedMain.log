@@ -1,4 +1,4 @@
-Processing 45 files
+Processing 49 files
 Start Processing: net/mcreator/penismod/ClientProxyPenismod.java
 Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
 Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -313,6 +313,209 @@ Import: net.minecraft.block.Block
 Import: net.mcreator.penismod.ElementsPenismod
 End  Processing: net/mcreator/penismod/block/BlockOctopusDildo.java
 
+Start Processing: net/mcreator/penismod/block/BlockPenisBlock.java
+New Key: class net/mcreator/penismod/ElementsPenismod
+New Key: class net/mcreator/penismod/ElementsPenismod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/penismod/block/BlockPenisBlock/BlockPenisBlock (Lnet/mcreator/penismod/ElementsPenismod;)V net/mcreator/penismod/block/BlockPenisBlock
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1660,1676]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/penismod/block/BlockPenisBlock/BlockCustom/BlockCustom ()V net/mcreator/penismod/block/BlockPenisBlock/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1848,1852]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1869,1887]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1902,1914]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/GLASS[1926,1931]::GLASS->field_185853_f
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1947,1958]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1972,1985]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1996,2009]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2022,2037]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2046,2060]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[2073,2088]::BUILDING_BLOCKS->field_78030_b
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2162,2175]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2259,2271]::isOpaqueCube->func_149662_c
+Rename method net/minecraft/block/Block/randomDisplayTick (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/Random;)V[2373,2390]::randomDisplayTick->func_180655_c
+Rename method net/minecraft/block/Block/randomDisplayTick (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/Random;)V[2460,2477]::randomDisplayTick->func_180655_c
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2538,2550]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[2553,2559]::player->field_71439_g
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2584,2588]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2617,2621]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2650,2654]::getZ->func_177952_p
+Rename method net/minecraft/world/World/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;DDDDDD[I)V[3109,3122]::spawnParticle->func_175688_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.EnumParticleTypes
+Import: net.minecraft.util.BlockRenderLayer
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.penismod.ElementsPenismod
+Import: java.util.Random
+End  Processing: net/mcreator/penismod/block/BlockPenisBlock.java
+
+Start Processing: net/mcreator/penismod/block/BlockPenisFence.java
+New Key: class net/mcreator/penismod/ElementsPenismod
+New Key: class net/mcreator/penismod/ElementsPenismod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/penismod/block/BlockPenisFence/BlockPenisFence (Lnet/mcreator/penismod/ElementsPenismod;)V net/mcreator/penismod/block/BlockPenisFence
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1655,1671]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/penismod/block/BlockPenisFence/BlockCustom/BlockCustom ()V net/mcreator/penismod/block/BlockPenisFence/BlockCustom
+Rename field net/minecraft/block/material/Material/GLASS[1848,1853]::GLASS->field_151592_s
+Rename field net/minecraft/block/material/Material/GLASS[1873,1878]::GLASS->field_151592_s
+Rename method net/minecraft/block/material/Material/getMaterialMapColor ()Lnet/minecraft/block/material/MapColor;[1888,1907]::getMaterialMapColor->func_151565_r
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1910,1928]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1943,1955]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/GLASS[1967,1972]::GLASS->field_185853_f
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1988,1999]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2013,2026]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2037,2050]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2063,2078]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2085,2099]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/DECORATIONS[2112,2123]::DECORATIONS->field_78031_c
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2166,2178]::isOpaqueCube->func_149662_c
+Rename method net/minecraft/block/Block/randomDisplayTick (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/Random;)V[2280,2297]::randomDisplayTick->func_180655_c
+Rename method net/minecraft/block/Block/randomDisplayTick (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/Random;)V[2367,2384]::randomDisplayTick->func_180655_c
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2445,2457]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[2460,2466]::player->field_71439_g
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2491,2495]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2524,2528]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2557,2561]::getZ->func_177952_p
+Rename method net/minecraft/world/World/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;DDDDDD[I)V[3061,3074]::spawnParticle->func_175688_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.EnumParticleTypes
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.BlockFence
+Import: net.minecraft.block.Block
+Import: net.mcreator.penismod.ElementsPenismod
+Import: java.util.Random
+End  Processing: net/mcreator/penismod/block/BlockPenisFence.java
+
+Start Processing: net/mcreator/penismod/block/BlockPenisHalfBlock.java
+New Key: class net/mcreator/penismod/ElementsPenismod
+New Key: class net/mcreator/penismod/ElementsPenismod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/penismod/block/BlockPenisHalfBlock/BlockPenisHalfBlock (Lnet/mcreator/penismod/ElementsPenismod;)V net/mcreator/penismod/block/BlockPenisHalfBlock
+New Key: class net/mcreator/penismod/block/BlockPenisHalfBlock/BlockCustom
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[2306,2322]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/penismod/block/BlockPenisHalfBlock/BlockCustom/BlockCustom ()V net/mcreator/penismod/block/BlockPenisHalfBlock/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[2507,2511]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2528,2546]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2565,2577]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/GLASS[2589,2594]::GLASS->field_185853_f
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2610,2621]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2636,2649]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2660,2673]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2686,2701]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2708,2722]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[2735,2750]::BUILDING_BLOCKS->field_78030_b
+Rename field net/minecraft/block/Block/blockState[2780,2790]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2795,2807]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2811,2823]::withProperty->func_177226_a
+New Key: class net/mcreator/penismod/block/BlockPenisHalfBlock/BlockCustom
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[2878,2886]::isDouble->func_176552_j
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2914,2926]::withProperty->func_177226_a
+Rename field net/minecraft/block/BlockSlab/HALF[2938,2942]::HALF->field_176554_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2986,3001]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/useNeighborBrightness[3017,3038]::useNeighborBrightness->field_149783_u
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[3040,3048]::isDouble->func_176552_j
+New Key: class net/mcreator/penismod/block/BlockPenisHalfBlock/BlockCustom
+New Key: class net/mcreator/penismod/block/BlockPenisHalfBlock/BlockCustom
+Rename method net/minecraft/block/properties/PropertyEnum/create (Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/block/properties/PropertyEnum;[3163,3169]::create->func_177709_a
+New Key: class net/mcreator/penismod/block/BlockPenisHalfBlock/BlockCustom
+Rename method net/minecraft/block/Block/getItemDropped (Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;[3249,3263]::getItemDropped->func_180660_a
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[3326,3342]::getItemFromBlock->func_150898_a
+Rename method net/minecraft/block/Block/getItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;[3388,3395]::getItem->func_185473_a
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3564,3580]::createBlockState->func_180661_e
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[3598,3606]::isDouble->func_176552_j
+Rename field net/minecraft/block/BlockSlab/HALF[3784,3788]::HALF->field_176554_a
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[3853,3869]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[3892,3900]::isDouble->func_176552_j
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3928,3943]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3975,3990]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3991,4003]::withProperty->func_177226_a
+Rename field net/minecraft/block/BlockSlab/HALF[4005,4009]::HALF->field_176554_a
+New Key: class net/minecraft/block/BlockSlab
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4106,4122]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[4154,4162]::isDouble->func_176552_j
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4219,4227]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockSlab/HALF[4233,4237]::HALF->field_176554_a
+Rename method net/minecraft/block/BlockSlab/getUnlocalizedName (I)Ljava/lang/String;[4303,4321]::getUnlocalizedName->func_150002_b
+Rename method net/minecraft/block/Block/getUnlocalizedName ()Ljava/lang/String;[4346,4364]::getUnlocalizedName->func_149739_a
+Rename method net/minecraft/block/BlockSlab/getVariantProperty ()Lnet/minecraft/block/properties/IProperty;[4406,4424]::getVariantProperty->func_176551_l
+Rename method net/minecraft/block/BlockSlab/getTypeForItem (Lnet/minecraft/item/ItemStack;)Ljava/lang/Comparable;[4488,4502]::getTypeForItem->func_185674_a
+New Key: class net/mcreator/penismod/block/BlockPenisHalfBlock/BlockCustom
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[4599,4607]::isDouble->func_176552_j
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[4776,4784]::isDouble->func_176552_j
+Rename method net/minecraft/util/IStringSerializable/getName ()Ljava/lang/String;[4969,4976]::getName->func_176610_l
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[5108,5116]::isDouble->func_176552_j
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[5221,5234]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[5318,5330]::isOpaqueCube->func_149662_c
+Rename method net/minecraft/block/Block/randomDisplayTick (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/Random;)V[5432,5449]::randomDisplayTick->func_180655_c
+Rename method net/minecraft/block/Block/randomDisplayTick (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/Random;)V[5519,5536]::randomDisplayTick->func_180655_c
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[5597,5609]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[5612,5618]::player->field_71439_g
+Rename method net/minecraft/util/math/Vec3i/getX ()I[5643,5647]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[5676,5680]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[5709,5713]::getZ->func_177952_p
+Rename method net/minecraft/world/World/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;DDDDDD[I)V[6213,6226]::spawnParticle->func_175688_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.IStringSerializable
+Import: net.minecraft.util.EnumParticleTypes
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.util.BlockRenderLayer
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemSlab
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.Variant
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.properties.PropertyEnum
+Import: net.minecraft.block.properties.IProperty
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.BlockSlab
+Import: net.minecraft.block.Block
+Import: net.mcreator.penismod.ElementsPenismod
+Import: java.util.Random
+Adding 1 imports
+        net.minecraft.block.BlockSlab.EnumBlockHalf
+End  Processing: net/mcreator/penismod/block/BlockPenisHalfBlock.java
+
 Start Processing: net/mcreator/penismod/block/BlockPenisOre.java
 New Key: class net/mcreator/penismod/ElementsPenismod
 New Key: class net/mcreator/penismod/ElementsPenismod
@@ -374,6 +577,56 @@ Import: net.mcreator.penismod.ElementsPenismod
 Import: java.util.Random
 Import: java.util.List
 End  Processing: net/mcreator/penismod/block/BlockPenisOre.java
+
+Start Processing: net/mcreator/penismod/block/BlockPenisStairs.java
+New Key: class net/mcreator/penismod/ElementsPenismod
+New Key: class net/mcreator/penismod/ElementsPenismod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/penismod/block/BlockPenisStairs/BlockPenisStairs (Lnet/mcreator/penismod/ElementsPenismod;)V net/mcreator/penismod/block/BlockPenisStairs
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1660,1676]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/penismod/block/BlockPenisStairs/BlockCustom/BlockCustom ()V net/mcreator/penismod/block/BlockPenisStairs/BlockCustom
+Rename field net/minecraft/block/material/Material/GLASS[1865,1870]::GLASS->field_151592_s
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1881,1896]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1903,1921]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1937,1949]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/GLASS[1961,1966]::GLASS->field_185853_f
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1982,1993]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2007,2020]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2031,2044]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2057,2072]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2079,2093]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[2106,2121]::BUILDING_BLOCKS->field_78030_b
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2160,2172]::isOpaqueCube->func_149662_c
+Rename method net/minecraft/block/Block/randomDisplayTick (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/Random;)V[2274,2291]::randomDisplayTick->func_180655_c
+Rename method net/minecraft/block/Block/randomDisplayTick (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/Random;)V[2361,2378]::randomDisplayTick->func_180655_c
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2439,2451]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[2454,2460]::player->field_71439_g
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2485,2489]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2518,2522]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2551,2555]::getZ->func_177952_p
+Rename method net/minecraft/world/World/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;DDDDDD[I)V[3055,3068]::spawnParticle->func_175688_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.EnumParticleTypes
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.BlockStairs
+Import: net.minecraft.block.Block
+Import: net.mcreator.penismod.ElementsPenismod
+Import: java.util.Random
+End  Processing: net/mcreator/penismod/block/BlockPenisStairs.java
 
 Start Processing: net/mcreator/penismod/block/BlockScalaSummoner.java
 New Key: class net/mcreator/penismod/ElementsPenismod

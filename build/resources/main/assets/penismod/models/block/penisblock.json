@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "penismod:blocks/penis_block_bottom",
+    "up": "penismod:blocks/penis_block_top",
+    "north": "penismod:blocks/penis_block",
+    "east": "penismod:blocks/penis_block",
+    "south": "penismod:blocks/penis_block",
+    "west": "penismod:blocks/penis_block",
+    "particle": "penismod:blocks/penis_block_bottom"
+  }
+}

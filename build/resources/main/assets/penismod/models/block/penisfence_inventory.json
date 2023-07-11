@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "penismod:blocks/penis_halfblock",
+    "particle": "penismod:blocks/penis_halfblock"
+  }
+}
