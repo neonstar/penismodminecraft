@@ -1,0 +1,33 @@
+{
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-07-11 15:48:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2023-07-11 15:48:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
+    "criteria": {
+      "has_black_dye": "2023-07-11 15:48:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "birch_forest": "2023-07-11 15:49:24 +0300",
+      "plains": "2023-07-11 15:48:20 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
+    "criteria": {
+      "has_black_dye": "2023-07-11 15:48:20 +0300"
+    },
+    "done": true
+  }
+}

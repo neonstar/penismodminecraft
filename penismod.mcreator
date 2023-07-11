@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 2,
-    "ENTITY": 10
+    "ENTITY": 10,
+    "GUI": 2
   },
   "mod_elements": [
     {
@@ -739,7 +739,7 @@
       "tile.cattwo.name": "Cat Two",
       "item.cumpot.name": "Cumpot",
       "tile.scalasummoner.name": "Scala Summoner",
-      "entity.penisvillager.name": "PENISVILLAGER",
+      "entity.penisvillager.name": "Van",
       "effect.huesospotion": "Huesospotion",
       "tile.maxwellblock.name": "Maxwellblock",
       "item.pickpenis.name": "Pick Penis",
